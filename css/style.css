@@ -281,6 +281,8 @@ transition: all 0.7s;
 	.images-new{margin-left: 50px};
 	.contacts{
 		background: #574B63;}
+		.contacts-inner {
+			background-color: #574B63;}
 }
 
 @media (max-width: 940px){
@@ -318,8 +320,8 @@ transition: .3s ease;
 		.menu-btn{
 			display: inline-flex;
 			order: 1;
-			width: 50px;
-			height: 50px;
+			width: 30px;
+			height: 30px;
 			background-color: transparent;
 			border: none;
 			cursor:pointer;
@@ -332,16 +334,16 @@ transition: .3s ease;
 			z-index: 50;
 		}
 	   .btn-line:nth-child(1){
-			top: 0;
+			top: 5px;
 		}
 		.btn-line:nth-child(2){
-			top: 20px;
+			top: 15px;
 		}
 		.btn-line:nth-child(3){
-			top: 20px;
+			top: 15px;
 		}
       .btn-line:nth-child(4){
-			top: 40px;
+			top: 25px;
 		}
 	
 		.menu-open .btn-line:nth-child(1) {
@@ -406,10 +408,10 @@ transition: .3s ease;
 	 @media (max-width: 420px){
 		.nav{flex-wrap: wrap;}
 		.phone{
-			flex-basis: auto;
+			/* flex-basis: auto;
 			margin-top: 20px;
 			width: 100%;
-			order: 3;
+			order: 3; */
 			text-align: center;
 		}
 		.menu-link{	
